@@ -2,15 +2,15 @@
 # File Name     : DockerFile
 # Description	: Used to build the container (docker build -t <imagename> <filepath>)
 # Args          : none
-# Author       	: dudoleitor
-# Email         : dudoleitor@dudoleitor.com
-# GitHub        : github.com/dudoleitor/docker-nginx-rtmps
+# Author       	: x3r4n0
+# Email         : x3r4n0@nomail
+# GitHub        : github.com/x3r4n0docker-nginx-rtmps
 ###################################################################
 
 FROM buildpack-deps:bullseye
 
-LABEL org.opencontainers.image.source=https://github.com/dudoleitor/docker-nginx-rtmps
-LABEL org.opencontainers.image.authors="dudoleitor dudoleitor@dudoleitor.com"
+LABEL org.opencontainers.image.source=https://github.com/x3r4n0/docker-nginx-rtmps
+LABEL org.opencontainers.image.authors="x3r4n0 x3r4n0@nomail"
 
 # Installing nginx with rtmp module (cloning from the official github)
 RUN cd /tmp && \
